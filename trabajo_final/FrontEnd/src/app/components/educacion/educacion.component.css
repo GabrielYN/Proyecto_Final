@@ -1,0 +1,14 @@
+.row{
+    padding: 20px;
+    background: rgb(49, 47, 47);
+}
+
+div{
+    
+    text-align: left;
+    margin: auto;
+}
+
+h1, h3{
+    display:inline;
+}

@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+#fondo
+{
+   
+    
+}
+#color_verde
+{
+    color:rgb(52,233,142);
+    font-weight: bold;
+    text-shadow:0 0 7px rgb(52,233,142);
+}
+#letraBlanco
+{
+    color:rgb(227,226,228);
+    font-weight: bold;
+}
+#letraBlancoOscuro
+{
+    color:rgb(188, 187, 189);
+}
+

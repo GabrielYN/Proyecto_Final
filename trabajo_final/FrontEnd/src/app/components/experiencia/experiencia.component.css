@@ -1,0 +1,23 @@
+.row{
+    padding: 20px;
+    background: rgb(35,33,35);
+}
+
+div{
+    
+    text-align: left;
+    margin: auto;
+    
+}
+
+h1, h3{
+    display:inline;
+    
+}
+
+h1{
+    margin-top: 40px;
+}
+p{
+    margin-top: 15px;
+}
