@@ -20,35 +20,42 @@ div{
         position: absolute;
         width: 15%;
         border-radius: 20%;
-        box-shadow: 10px 10px 30px rgb(59, 233, 142);
+        box-shadow:0px 0px 14px 5px rgb(59, 233, 142);
         left: 2%;
-        top: 620px;
+        top: 600px;
     }
 }
 
 @media (max-width:575px){
     #fotodeperfil{
         position: absolute;
-        width: 30%;
+        width: 15%;
         border-radius: 20%;
         box-shadow:0px 0px 14px 5px rgb(59, 233, 142);
-        left: 34%;
-        top: 770px;
+        left: 42%;
+        top: 615px;
+        
+    }
+    .ajuste{
+        margin-top: 100px;
     }
 }
 
-@media (max-width:400px){
+
+
+@media (max-width:349px){
     #fotodeperfil{
         position: absolute;
-        width: 30%;
+        width: 40%;
         border-radius: 20%;
         box-shadow:0px 0px 14px 5px rgb(59, 233, 142);
-        left: 35%;
-        top: 700px;
+        left: 2%;
+        top: 600px;
+    }
+    .ajuste{
+        margin-top: 500px;
     }
 }
-
-
 
 .nombre{
     margin-top: 30px;

@@ -1,9 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
-#fondo
-{
-   
-    
-}
+
 #color_verde
 {
     color:rgb(52,233,142);
@@ -20,3 +16,16 @@
     color:rgb(188, 187, 189);
 }
 
+::-webkit-scrollbar {
+    background-color: rgb(49, 47, 47); /* Color de fondo de la barra */
+    width: 9px; /* Ancho de la barra */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: rgb(52,233,142); /* Color de la barra deslizante */
+    box-shadow:0 0 20px 20px rgb(52,233,142);
+  }
+
+#fondo{
+    background:  rgb(49, 47, 47);
+}
