@@ -1,0 +1,47 @@
+<div class="container">
+    <div class="row">
+        <div class="">
+            <form (ngSubmit)="onCreate()" novalidate #f="ngForm">
+                <p class="login-text">
+                    <span class="fa-stack fa-lg">
+                        <p class="login-text">
+
+                            <span class="fa-stack fa-lg">
+                                <i class="bi bi-building-add"></i>
+                                
+
+
+
+                            </span>
+                        </p>
+
+                    </span>
+                </p>
+
+
+
+
+                <div class="form-group">
+                    <label for="nombreE" id="color_verde">Nombre de la empresa</label>
+                    <input type="text" class="nombre form-comtrol-lg" id="nombreE" name="nombreE" [(ngModel)]="nombreE"
+                        required>
+
+                </div>
+                <div class="form-group">
+                    <label for="descripcionE" id="color_verde">Descripcion de la tarea</label>
+                    <input type="text" class="descripcion  form-comtrol-lg" id="descripcionE" name="descripcionE"
+                        [(ngModel)]="descripcionE" required>
+
+                </div>
+
+                <button class="btn btn-success experiencia-submit">
+                    Agregar experiencia
+
+                </button>
+
+            </form>
+        </div>
+    </div>
+
+    <div class="underlay-black"></div>
+</div>

@@ -1,0 +1,47 @@
+<div class="container" *ngIf="educacion">
+    <div class="row">
+        <div class="">
+            <form (ngSubmit)="onUpdate()" novalidate #f="ngForm">
+                <p class="login-text">
+                    <span class="fa-stack fa-lg">
+                        <p class="login-text">
+
+                            <span class="fa-stack fa-lg">
+                                <i class="bi bi-building-add"></i>
+                                
+
+
+
+                            </span>
+                        </p>
+
+                    </span>
+                </p>
+
+
+
+
+                <div class="form-group">
+                    <label for="nombreE" id="color_verde">Nombre de la institucion</label>
+                    <input type="text" class="nombre form-comtrol-lg" id="nombreE" name="nombreE" [(ngModel)]="educacion.nombreE"
+                        required>
+
+                </div>
+                <div class="form-group">
+                    <label for="descripcionE" id="color_verde">Descripcion de sus estudios</label>
+                    <input type="text" class="descripcion  form-comtrol-lg" id="descripcionE" name="descripcionE"
+                        [(ngModel)]="educacion.descripcionE" required>
+
+                </div>
+
+                <button class="btn btn-success experiencia-submit">
+                    Agregar educacion
+
+                </button>
+
+            </form>
+        </div>
+    </div>
+
+    <div class="underlay-black"></div>
+</div>
